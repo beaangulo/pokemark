@@ -1,0 +1,27 @@
+{
+  "name": "pokemark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/beaangulo/pokemark.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/:_authToken=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"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.3.0"
+  }
+}
